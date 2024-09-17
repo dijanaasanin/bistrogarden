@@ -1,0 +1,19 @@
+@media only screen and (max-width:400px){
+    .navbar-brand .text-white .da-foot{
+    font-size: 10px !important;
+   }
+}
+@media only screen and(max-width: 425px) {
+    .da-predjelo{
+        width:100% !important;
+    }
+    .da-gj{
+        width:100% !important;
+    }
+    .da-salats{
+        width:100% !important;
+    }
+    .da-de{
+        width:100% !important;
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="restaurant, every plate is a story, every bite is a memory "/>
+    <meta name="author" content="Dijana Ašanin"/>
+    <meta name="description" content="This is a restaurant that offers an unforgettable experience. It is located in the very center of the city, where you can enjoy a wide selection of dishes and drinks.
+    The restaurant is famous for its top quality food and service. We offer a wide selection of various specialties, as well as a luxurious interior that will amaze you. "/>
+    <title>Bistro Garden</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" >
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body class style>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg bg-warning-text-emphasis">
+                        <div class="container-fluid">
+                          <a class="navbar-brand text-white" href="index.html">Bistro Garden</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-end mc-navbar" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="aboutas.html">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="menu.html">Menu</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="reservations.html">Reservations</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="author.html">Author</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+<section id="form">
+  <div class="container">
+    <h2 class="fst-italic fs-2">Reservations at Bistro Garden</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>We are very glad that you have chosen our restaurant for your enjoyment. In order to provide you with exceptional service and create an unforgettable occasion, we offer the possibility of online reservations.</p>
+        <p>Our easy-to-use online reservation system allows you to book your table in just a few clicks, ensuring that your dining experience at Bistro Garden is seamless from start to finish. Whether you’re planning a romantic evening, a business meeting, or a casual meal with friends, simply select your preferred date, time, and party size, and we'll take care of the rest.</p>
+        <p>Additionally, for those planning events such as birthday celebrations, anniversaries, or corporate gatherings, we offer personalized service to make your occasion truly special. Let us know your requirements in advance, and we’ll work with you to create a memorable dining experience, complete with custom menus, décor, and other details that suit your needs.</p>
+        <p>Should your plans change, our flexible system allows you to modify or cancel your reservation with ease, ensuring convenience and peace of mind.</p>
+        <p>We look forward to welcoming you to Bistro Garden, where every reservation marks the beginning of an unforgettable dining experience. Thank you for choosing us, and we can’t wait to make your visit special!</p>
+        <p>To make a reservation, please fill out the form below or contact us at <span class="fst-italic">+381 60 123-45678</span> or <span class="fst-italic">bistrogarden@gmail.com</span>.</p>
+      </div>
+      <div class="col-md-6">
+       <form action="#">
+        <div class="row">
+          <div class="form-group col-6">
+            <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group col-6">
+            <label for="name">Surname:</label>
+              <input type="text" class="form-control" id="surname" name="surname" required>
+          </div>
+          <div class="form-group col-6">
+            <label for="name">Phone:</label>
+              <input type="text" class="form-control" id="phone" name="phone" required>
+          </div>
+          <div class="form-group col-6">
+            <label for="name">Date:</label>
+             <input type="date" class="form-control" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="name">Time:</label>
+              <input type="time" class="form-control" id="time" name="time" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message"></textarea>
+            <button type="submit" class="mx-auto btn btn-dark w-10 mt-3 da-button">Submit</button>
+            <button type="button" class="btn btn-primary btn-dark mt-3 da-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Reservations</button>
+          </div>
+        </div>
+       </form>
+      <div class="col-md-6">
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+           <div class="modal-content">
+            <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Recommendation</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>In order to make your stay as pleasant as possible and secure a place in our restaurant, we recommend that you make a reservation in advance. Reservations can be made online or by phone until 22:00 every day. For larger groups or special events, we advise you to contact us at least 24 hours in advance so that we can make appropriate preparations and provide a personalized service.</p>
+        <p>If you are late for your reservation, please let us know. We will hold your reservation until 15 minutes after the appointed time, after which unfortunately we cannot guarantee table availability, especially during peak periods. If you do not arrive on time and are unable to contact us, we will do everything we can to get you a seat as soon as the next table becomes available.</p>
+        <p>Your understanding and cooperation help us to provide the best possible service to all guests. We look forward to welcoming you to Bistro Garden!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      </div>
+    </div>
+    </div>
+</section>
+<footer>
+  <div class="mc-transparent-black">
+    <div class="container py-1">
+      <div class="row">
+       <div class="col-md-6">
+       <a class="navbar-brand text-white da-foot" href="index.html">Bistro Garden</a>
+       </div>
+       <div class="col-md-6">
+        <p class="text-white text-end da-foot">© 2004–2024</p>
+       </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
